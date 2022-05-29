@@ -11,7 +11,6 @@
 
 class Union {
   std::vector<int> label_image;
-
  public:
   explicit Union(int N) {
     label_image.resize(N);

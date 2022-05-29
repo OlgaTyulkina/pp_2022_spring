@@ -13,7 +13,6 @@ std::vector<std::vector<int>> labeling(
     for (int x = 0; x < width; x++) {
       if (binary_image[y][x] > 0) {
         int index = y * width + x + 1;
-
         if (x > 0 && binary_image[y][x - 1]) {
           un.set_label(index, y * width + x - 1 + 1);
         }

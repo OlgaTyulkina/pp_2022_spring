@@ -57,7 +57,7 @@ TEST(OMP, Test_10x10) {
   for (int i = 0; i < a; i++) EXPECT_EQ(expected[i], binary_image[i]);
 }
 
-TEST(OMP, Test_1x1) {
+TEST(OMP, Test_1x1_2) {
   int width = 1;
   int height = 1;
   std::random_device dev;
