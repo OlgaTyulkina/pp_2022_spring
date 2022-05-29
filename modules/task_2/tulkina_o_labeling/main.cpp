@@ -60,6 +60,7 @@ TEST(OMP, Test_10x10) {
 TEST(OMP, Test_1x1_2) {
   int width = 1;
   int height = 1;
+
   std::random_device dev;
   std::mt19937 gen(dev());
   std::uniform_real_distribution<> urd(0, 2);
